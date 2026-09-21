@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.container div {
+    background-color: rgb(255, 162, 162);
+}
