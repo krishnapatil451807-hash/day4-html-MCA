@@ -1,0 +1,41 @@
+.container {
+  padding: 6px;
+  width: 400px;
+}
+.card {
+    font-family: arial;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 120px;
+  width: 100%;
+}
+.card img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.card div {
+    width: 200px;
+    font-size: small;
+}
+.card p {
+    font-weight: bold;
+    margin: 4px 0px;
+    font-size: 20px;
+}
+.card span {
+  color: gray;
+  display: block;
+}
+
+.card button {
+    background-color: rgb(108, 108, 255);
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    height: 40px;
+    border: none;
+    width: 100px;
+}
