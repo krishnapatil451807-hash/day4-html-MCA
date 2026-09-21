@@ -1,0 +1,10 @@
+.container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+.container div {
+    background-color: rgb(255, 171, 171);
+}
