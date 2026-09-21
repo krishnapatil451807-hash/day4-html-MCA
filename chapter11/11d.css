@@ -1,0 +1,48 @@
+* {
+    font-family: arial;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+.card {
+    width: 300px;
+    box-shadow: 0px 0px 4px gray;
+    padding: 4px 0px;
+}
+.card > div {
+    margin: 12px;
+}
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+.card > div > p {
+    font-size: large;
+    font-weight: bold;
+}
+.tab {
+    margin: 12px 0px;
+    height: 48px;
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    align-items: center;
+    gap: 0px 10px;
+}
+.tab img {
+    object-fit: cover;
+    width: 36px;
+    height: 39px;
+    border-radius: 18px;
+}
+.tab p {
+    color: gray;
+}
+button {
+    background-color: rgb(109, 109, 255);
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    font-size: large;
+}
