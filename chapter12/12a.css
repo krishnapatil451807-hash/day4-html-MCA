@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+.container div:first-of-type {
+    width: 200px;
+    background-color: rgb(177, 177, 255);
+}
+.container div:last-of-type {
+    width: 75px;
+    background-color: rgb(255, 144, 144);
+}
