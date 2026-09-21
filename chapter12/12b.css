@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+.container div:first-of-type {
+    width: 50px;
+    background-color: rgb(168, 168, 255);
+}
+.grow {
+    flex-grow: 1;
+    background-color: rgb(255, 157, 157);
+}
+.container div:last-of-type {
+    width: 75px;
+    background-color: rgb(168, 168, 255);
+}
