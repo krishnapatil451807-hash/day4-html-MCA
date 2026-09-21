@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(144, 76, 207);
+    font-family: arial;
+    padding: 6px;
+    font-size: large;
+}
+p {
+    color: white;
+    margin: 4px;
+}
+
+input {
+    height: 24px;
+    background-color: white;
+    color: rgb(171, 171, 171);
+    padding: 0px 12px;
+    margin: 0px 64px;
+    border : none;
+    border-radius: 12px;
+    flex-grow: 1;
+    font-size: small;
+}
+
+button {
+    background-color: rgb(144, 76, 207);
+    color: white;
+    border: 1px solid white;
+    padding: 6px 12px;
+    font-size: 12px;
+}
