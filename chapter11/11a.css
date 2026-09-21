@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 75px;
+    height: 36px;
+}
+.container div:first-of-type {
+    background-color: rgb(171, 171, 255);
+}
+.container div:last-of-type {
+    background-color: rgb(255, 162, 162);
+}
