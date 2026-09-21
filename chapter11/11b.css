@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    height: 36px;
+    width: 100%;
+}
+
+.container div {
+    background-color: rgb(171, 171, 255);
+}
+.container div:nth-of-type(2) {
+    background-color: rgb(255, 162, 162);
+}
