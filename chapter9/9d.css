@@ -1,0 +1,14 @@
+div {
+    font-family: arial;
+    background-color: rgb(28, 28, 28);
+    width: 340px;
+    padding: 2px 12px;
+}
+div p:first-of-type {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+div p:last-of-type{
+    color: gray;
+}
