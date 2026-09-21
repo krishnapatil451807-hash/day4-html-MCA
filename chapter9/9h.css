@@ -1,0 +1,32 @@
+* {
+    font-family: arial;
+}
+.tabs {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    padding: 2px 12px;
+    margin: 24px 12px;   
+}
+.tabs-parent {
+    width: fit-content;
+    margin: 0px auto;
+}
+body > div {
+    width: fit-content;
+    margin: 0px auto;
+}
+input {
+    height: 48px;
+    width:512px;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 0px 0px 6px rgb(193, 193, 193);
+    padding: 16px 24px;
+    font-size: medium;
+    margin-top: 12px;
+}
+
+img {
+    margin: 0px 120px;
+}
